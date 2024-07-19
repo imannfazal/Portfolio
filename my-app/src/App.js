@@ -1,8 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+     
+
     <title>Your Portfolio</title>
     <style>
         body {
@@ -85,7 +89,7 @@
         footer {
             text-align: center;
             padding: 20px 0;
-            background: #333;
+            background: #5f5f5f;
             color: #fff;
         }
         footer a {
@@ -95,11 +99,11 @@
             transition: color 0.3s ease;
         }
         footer a:hover {
-            color: #ffcc00;
+            color: #00b7ffa7;
         }
     </style>
-</head>
-<body>
+
+
     <div class="container">
         <header>
             <h1>Iman Fazal</h1>
@@ -145,6 +149,11 @@
             </ul>
         </section>
     </div>
-    
-</body>
-</html>
+
+
+      </header>
+    </div>
+  );
+}
+
+export default App;
